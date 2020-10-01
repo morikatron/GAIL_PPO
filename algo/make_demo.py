@@ -29,6 +29,9 @@ KEYS_TO_ACTION_CARTPOLE = {
     (ord('d'), ): 1,
 }
 
+BASELINE = 198  # CartPole-v0
+
+
 def display_arr(screen, arr, video_size, transpose):
     arr_min, arr_max = arr.min(), arr.max()
     arr = 255.0 * (arr - arr_min) / (arr_max - arr_min)
@@ -118,10 +121,11 @@ def play(env, transpose=True, fps=30, zoom=None, callback=None, keys_to_action=N
         if env_done:
             env_done = False
             obs = env.reset()
-            if len(episode_trajectory) > 198 and save_trajectory:
+            if len(episode_trajectory) > BASELINE and save_trajectory:
                 trajectories.append(episode_trajectory)
                 print("saved trajectory len", len(episode_trajectory))
-            print("reset! episode reward is", sum([epi[2] for epi in episode_trajectory]))
+            else:
+                print("reset! episode reward is", sum([epi[2] for epi in episode_trajectory]))
             episode_trajectory = []
             save_trajectory = True
         else:
@@ -158,9 +162,8 @@ def play(env, transpose=True, fps=30, zoom=None, callback=None, keys_to_action=N
                 video_size = event.size
                 screen = pygame.display.set_mode(video_size)
                 print(video_size)
-
-        # pygame.display.flip()
-        # clock.tick(fps)
+        pygame.display.flip()
+        clock.tick(fps)
     pygame.quit()
     return trajectories
 
@@ -202,14 +205,14 @@ class PlayPlot(object):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--env', type=str, default='CartPole-v0', help='Define Environment')
-    parser.add_argument('--fps', type=int, default=20, help='Game fps')
+    parser.add_argument('--fps', type=int, default=10, help='Game fps')
     args = parser.parse_args()
     env = gym.make(args.env)
-    trajectories = play(env, zoom=4, fps=args.fps)
+    trajectories = play(env, zoom=1, fps=args.fps)
     print("num episodes", len(trajectories))
-    if not os.path.exists("demo"):
-        os.mkdir("demo")
-    with open(f"demo/{args.env}.pkl", mode="wb") as f:
+    if not os.path.exists("./demo"):
+        os.mkdir("./demo")
+    with open(f"./demo/{args.env}.pkl", mode="wb") as f:
         pickle.dump(trajectories, f)
 
 

@@ -8,19 +8,11 @@ import gym
 import numpy as np
 import tensorflow as tf
 
-from util import set_global_seeds
-from ppo import PPO
-from discriminator import Discriminator
-from config import Config
-
-import logging
-from logging import getLogger, StreamHandler, DEBUG
-logger = getLogger(__name__)
-logger.setLevel(DEBUG)
-sh = StreamHandler()
-sh.setLevel(DEBUG)
-logger.addHandler(sh)
-logging.basicConfig(filename='logs.txt', filemode='w', format='%(message)s', level=DEBUG)
+from algo.util import set_global_seeds
+from algo.ppo import PPO
+from algo.discriminator import Discriminator
+from algo.config import Config
+from algo import logger
 
 
 class CartPoleWrapper(gym.Wrapper):
@@ -161,6 +153,7 @@ class Memory:
 def main():
     config = Config()
     set_global_seeds(config.seed)
+    logger.configure("../logs")
     env = gym.make(config.env_name)
     env = CartPoleWrapper(env)
     # with tf.device("/gpu:0"):  # gpuを使用する場合
@@ -176,7 +169,7 @@ def main():
             config=config
         )
     num_episodes = 0
-    episode_rewards = deque([0] * 100, maxlen=100)
+    episode_rewards = deque([], maxlen=100)
     memory = Memory(env.observation_space.shape, config)
     expert_dataset = ExpertDataset(f"demo/{config.demo}")
     reward_sum = 0
@@ -217,12 +210,12 @@ def main():
             rew_mean = np.mean(reward_signals)
 
         if t % config.log_step == 0:
-            logger.info(f"\ndiscriminator loss total: {total_loss}")
-            logger.info(f"discriminator loss agent: {agent_loss}")
-            logger.info(f"discriminator loss demo: {demo_loss}")
-            logger.info(f"reward signal mean: {rew_mean}")
-            logger.info(f"agent acc: {agent_acc}")
-            logger.info(f"demo acc: {demo_acc}")
+            logger.record_tabular("discriminator loss total", total_loss.numpy())
+            logger.record_tabular("discriminator loss agent", agent_loss.numpy())
+            logger.record_tabular("discriminator loss demo", demo_loss.numpy())
+            logger.record_tabular("reward signal mean", rew_mean)
+            logger.record_tabular("agent acc", agent_acc.numpy())
+            logger.record_tabular("demo acc", demo_acc.numpy())
 
         # ===== train agent(generator) =====
         memory.compute_gae()
@@ -234,17 +227,18 @@ def main():
                 batch_obs, batch_act, batch_adv, batch_sum, batch_pi_old = memory.sample(minibatch_indexes)
                 loss, policy_loss, value_loss, entropy_loss, policy, kl, frac = ppo.train(batch_obs, batch_act, batch_pi_old, batch_adv, batch_sum)
 
-            if t % config.log_step == 0:
-                logger.info("num episodes: {}".format(num_episodes))
-                logger.info("loss: {}".format(loss.numpy()))
-                logger.info("policy loss: {}".format(policy_loss.numpy()))
-                logger.info("value loss: {}".format(value_loss.numpy()))
-                logger.info("entropy loss: {}".format(entropy_loss.numpy()))
-                logger.info("kl: {}".format(kl.numpy()))
-                logger.info("frac: {}".format(frac.numpy()))
-                logger.info("mean 100 episode reward: {}".format(np.mean(episode_rewards)))
-                logger.info("max 100 episode reward: {}".format(np.max(episode_rewards)))
-                logger.info("min 100 episode reward: {}".format(np.min(episode_rewards)))
+        if t % config.log_step == 0:
+            logger.record_tabular("num episodes", num_episodes)
+            logger.record_tabular("loss", loss.numpy())
+            logger.record_tabular("policy loss", policy_loss.numpy())
+            logger.record_tabular("value loss", value_loss.numpy())
+            logger.record_tabular("entropy loss", entropy_loss.numpy())
+            logger.record_tabular("kl", kl.numpy())
+            logger.record_tabular("frac", frac.numpy())
+            logger.record_tabular("mean 100 episode reward", np.mean(episode_rewards))
+            logger.record_tabular("max 100 episode reward", np.max(episode_rewards))
+            logger.record_tabular("min 100 episode reward", np.min(episode_rewards))
+            logger.dump_tabular()
         memory.reset()
     # ===== finish training =====
     if config.play:
