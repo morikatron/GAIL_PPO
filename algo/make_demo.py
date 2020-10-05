@@ -210,9 +210,9 @@ def main():
     env = gym.make(args.env)
     trajectories = play(env, zoom=1, fps=args.fps)
     print("num episodes", len(trajectories))
-    if not os.path.exists("./demo"):
-        os.mkdir("./demo")
-    with open(f"./demo/{args.env}.pkl", mode="wb") as f:
+    if not os.path.exists("demo"):
+        os.mkdir("demo")
+    with open(f"demo/{args.env}_human.pkl", mode="wb") as f:
         pickle.dump(trajectories, f)
 
 

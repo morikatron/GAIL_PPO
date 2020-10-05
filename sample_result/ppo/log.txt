@@ -1,0 +1,1801 @@
+Logging to logs
+---------------------------------------------
+| agent acc                | 0.8125         |
+| demo acc                 | 0.6875         |
+| discriminator loss agent | 0.6788308      |
+| discriminator loss demo  | 0.6563749      |
+| discriminator loss total | 1.3352057      |
+| entropy loss             | 0.685299       |
+| frac                     | 0.0            |
+| kl                       | -2.5609508e-05 |
+| loss                     | 10.812586      |
+| max 100 episode reward   | 34             |
+| mean 100 episode reward  | 25.8           |
+| min 100 episode reward   | 17             |
+| num episodes             | 4              |
+| policy loss              | 0.077723145    |
+| reward signal mean       | 0.4944928      |
+| value loss               | 21.48343       |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.71875       |
+| demo acc                 | 0.65625       |
+| discriminator loss agent | 0.47506094    |
+| discriminator loss demo  | 0.4917508     |
+| discriminator loss total | 0.9668118     |
+| entropy loss             | 0.61609566    |
+| frac                     | 0.0           |
+| kl                       | 6.1683822e-06 |
+| loss                     | 5.0074854     |
+| max 100 episode reward   | 172           |
+| mean 100 episode reward  | 62            |
+| min 100 episode reward   | 12            |
+| num episodes             | 354           |
+| policy loss              | -0.26666874   |
+| reward signal mean       | 0.25077826    |
+| value loss               | 10.56063      |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.6875        |
+| demo acc                 | 0.71875       |
+| discriminator loss agent | 0.5178458     |
+| discriminator loss demo  | 0.5555937     |
+| discriminator loss total | 1.0734396     |
+| entropy loss             | 0.60290945    |
+| frac                     | 0.03125       |
+| kl                       | -0.0020213688 |
+| loss                     | 15.269517     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 101           |
+| min 100 episode reward   | 18            |
+| num episodes             | 481           |
+| policy loss              | 0.1279804     |
+| reward signal mean       | 0.28027764    |
+| value loss               | 30.295132     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.65625        |
+| demo acc                 | 0.75           |
+| discriminator loss agent | 0.6393959      |
+| discriminator loss demo  | 0.48637658     |
+| discriminator loss total | 1.1257725      |
+| entropy loss             | 0.59888136     |
+| frac                     | 0.15625        |
+| kl                       | -0.00028854306 |
+| loss                     | 10.761361      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 120            |
+| min 100 episode reward   | 14             |
+| num episodes             | 588            |
+| policy loss              | 0.12996162     |
+| reward signal mean       | 0.3725751      |
+| value loss               | 21.274776      |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 1.0            |
+| demo acc                 | 0.75           |
+| discriminator loss agent | 0.20025827     |
+| discriminator loss demo  | 0.58064234     |
+| discriminator loss total | 0.7809006      |
+| entropy loss             | 0.6235357      |
+| frac                     | 0.125          |
+| kl                       | -0.00074410345 |
+| loss                     | 4.8905044      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 131            |
+| min 100 episode reward   | 14             |
+| num episodes             | 685            |
+| policy loss              | -0.12319213    |
+| reward signal mean       | 0.1886746      |
+| value loss               | 10.039864      |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.6875         |
+| demo acc                 | 0.6875         |
+| discriminator loss agent | 0.57068175     |
+| discriminator loss demo  | 0.4974727      |
+| discriminator loss total | 1.0681545      |
+| entropy loss             | 0.5820912      |
+| frac                     | 0.0            |
+| kl                       | -0.00025347061 |
+| loss                     | 2.5057356      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 168            |
+| min 100 episode reward   | 14             |
+| num episodes             | 759            |
+| policy loss              | -0.014717191   |
+| reward signal mean       | 0.43348598     |
+| value loss               | 5.0525475      |
+---------------------------------------------
+-------------------------------------------
+| agent acc                | 0.84375      |
+| demo acc                 | 0.8125       |
+| discriminator loss agent | 0.41917664   |
+| discriminator loss demo  | 0.54055417   |
+| discriminator loss total | 0.9597308    |
+| entropy loss             | 0.5212688    |
+| frac                     | 0.25         |
+| kl                       | 0.0010708927 |
+| loss                     | 0.6511499    |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 183          |
+| min 100 episode reward   | 14           |
+| num episodes             | 830          |
+| policy loss              | -0.30625015  |
+| reward signal mean       | 0.32476383   |
+| value loss               | 1.9252255    |
+-------------------------------------------
+------------------------------------------
+| agent acc                | 0.84375     |
+| demo acc                 | 0.5         |
+| discriminator loss agent | 0.4223088   |
+| discriminator loss demo  | 0.8167943   |
+| discriminator loss total | 1.2391031   |
+| entropy loss             | 0.5508888   |
+| frac                     | 0.0         |
+| kl                       | 6.78146e-05 |
+| loss                     | 0.4857884   |
+| max 100 episode reward   | 200         |
+| mean 100 episode reward  | 196         |
+| min 100 episode reward   | 42          |
+| num episodes             | 896         |
+| policy loss              | 0.14187844  |
+| reward signal mean       | 0.37077302  |
+| value loss               | 0.6988377   |
+------------------------------------------
+--------------------------------------------
+| agent acc                | 0.53125       |
+| demo acc                 | 0.34375       |
+| discriminator loss agent | 0.72154       |
+| discriminator loss demo  | 0.8412961     |
+| discriminator loss total | 1.562836      |
+| entropy loss             | 0.48377943    |
+| frac                     | 0.125         |
+| kl                       | -0.0006568463 |
+| loss                     | 0.41802886    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 196           |
+| min 100 episode reward   | 42            |
+| num episodes             | 960           |
+| policy loss              | 0.22836697    |
+| reward signal mean       | 0.48509613    |
+| value loss               | 0.38899937    |
+--------------------------------------------
+-------------------------------------------
+| agent acc                | 1.0          |
+| demo acc                 | 0.75         |
+| discriminator loss agent | 0.49886906   |
+| discriminator loss demo  | 0.4615029    |
+| discriminator loss total | 0.960372     |
+| entropy loss             | 0.47580084   |
+| frac                     | 0.0          |
+| kl                       | 0.0004884569 |
+| loss                     | 37.443436    |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 196          |
+| min 100 episode reward   | 150          |
+| num episodes             | 1026         |
+| policy loss              | -0.037669577 |
+| reward signal mean       | 0.38596478   |
+| value loss               | 74.971725    |
+-------------------------------------------
+-------------------------------------------
+| agent acc                | 0.8125       |
+| demo acc                 | 0.4375       |
+| discriminator loss agent | 0.6868504    |
+| discriminator loss demo  | 0.69273037   |
+| discriminator loss total | 1.3795807    |
+| entropy loss             | 0.5401461    |
+| frac                     | 0.0          |
+| kl                       | -0.001070711 |
+| loss                     | 0.89421755   |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 195          |
+| min 100 episode reward   | 121          |
+| num episodes             | 1091         |
+| policy loss              | -0.010985665 |
+| reward signal mean       | 0.455747     |
+| value loss               | 1.8212093    |
+-------------------------------------------
+--------------------------------------------
+| agent acc                | 0.5           |
+| demo acc                 | 0.4375        |
+| discriminator loss agent | 0.6995391     |
+| discriminator loss demo  | 0.65970266    |
+| discriminator loss total | 1.3592417     |
+| entropy loss             | 0.50696754    |
+| frac                     | 0.0           |
+| kl                       | -8.589978e-05 |
+| loss                     | 5.303292      |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 198           |
+| min 100 episode reward   | 121           |
+| num episodes             | 1156          |
+| policy loss              | -0.05530388   |
+| reward signal mean       | 0.49199444    |
+| value loss               | 10.727331     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.71875        |
+| demo acc                 | 0.5            |
+| discriminator loss agent | 0.5569849      |
+| discriminator loss demo  | 0.65326345     |
+| discriminator loss total | 1.2102484      |
+| entropy loss             | 0.52229756     |
+| frac                     | 0.0            |
+| kl                       | -0.00067124004 |
+| loss                     | -0.18434753    |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 198            |
+| min 100 episode reward   | 168            |
+| num episodes             | 1220           |
+| policy loss              | -0.3829887     |
+| reward signal mean       | 0.42111826     |
+| value loss               | 0.40772828     |
+---------------------------------------------
+-------------------------------------------
+| agent acc                | 0.25         |
+| demo acc                 | 0.84375      |
+| discriminator loss agent | 0.7346013    |
+| discriminator loss demo  | 0.60440254   |
+| discriminator loss total | 1.3390038    |
+| entropy loss             | 0.539415     |
+| frac                     | 0.0          |
+| kl                       | 0.0003885565 |
+| loss                     | 9.835555     |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 194          |
+| min 100 episode reward   | 144          |
+| num episodes             | 1287         |
+| policy loss              | 0.119021244  |
+| reward signal mean       | 0.5235548    |
+| value loss               | 19.443855    |
+-------------------------------------------
+---------------------------------------------
+| agent acc                | 1.0            |
+| demo acc                 | 0.4375         |
+| discriminator loss agent | 0.4041209      |
+| discriminator loss demo  | 0.71826935     |
+| discriminator loss total | 1.1223903      |
+| entropy loss             | 0.5132271      |
+| frac                     | 0.1875         |
+| kl                       | -0.00054043124 |
+| loss                     | 0.18751162     |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 196            |
+| min 100 episode reward   | 144            |
+| num episodes             | 1351           |
+| policy loss              | 0.0579844      |
+| reward signal mean       | 0.34155643     |
+| value loss               | 0.269319       |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.75          |
+| demo acc                 | 0.3125        |
+| discriminator loss agent | 0.6198443     |
+| discriminator loss demo  | 0.8342737     |
+| discriminator loss total | 1.454118      |
+| entropy loss             | 0.49627393    |
+| frac                     | 0.21875       |
+| kl                       | 0.00045705587 |
+| loss                     | 0.09161705    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 197           |
+| min 100 episode reward   | 151           |
+| num episodes             | 1416          |
+| policy loss              | -0.21902448   |
+| reward signal mean       | 0.44790813    |
+| value loss               | 0.63120854    |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.65625       |
+| demo acc                 | 0.4375        |
+| discriminator loss agent | 0.67972255    |
+| discriminator loss demo  | 0.6403215     |
+| discriminator loss total | 1.320044      |
+| entropy loss             | 0.53144926    |
+| frac                     | 0.34375       |
+| kl                       | -0.0005763988 |
+| loss                     | 1.1482611     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 196           |
+| min 100 episode reward   | 147           |
+| num episodes             | 1482          |
+| policy loss              | -0.12283907   |
+| reward signal mean       | 0.4816776     |
+| value loss               | 2.5528293     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.625          |
+| demo acc                 | 0.46875        |
+| discriminator loss agent | 0.7032239      |
+| discriminator loss demo  | 0.6820717      |
+| discriminator loss total | 1.3852956      |
+| entropy loss             | 0.5232228      |
+| frac                     | 0.3125         |
+| kl                       | -0.00015568652 |
+| loss                     | 0.3636251      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 194            |
+| min 100 episode reward   | 121            |
+| num episodes             | 1548           |
+| policy loss              | 0.11261724     |
+| reward signal mean       | 0.4987448      |
+| value loss               | 0.51248014     |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.8125        |
+| demo acc                 | 0.34375       |
+| discriminator loss agent | 0.5634478     |
+| discriminator loss demo  | 0.9830682     |
+| discriminator loss total | 1.546516      |
+| entropy loss             | 0.5291282     |
+| frac                     | 0.0           |
+| kl                       | -0.0013596565 |
+| loss                     | 3.361666      |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 188           |
+| min 100 episode reward   | 20            |
+| num episodes             | 1617          |
+| policy loss              | 0.16298854    |
+| reward signal mean       | 0.3511508     |
+| value loss               | 6.4079375     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.875         |
+| demo acc                 | 0.46875       |
+| discriminator loss agent | 0.52410567    |
+| discriminator loss demo  | 0.6713035     |
+| discriminator loss total | 1.1954092     |
+| entropy loss             | 0.50175226    |
+| frac                     | 0.09375       |
+| kl                       | -0.0018870644 |
+| loss                     | 1.0687683     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 189           |
+| min 100 episode reward   | 20            |
+| num episodes             | 1683          |
+| policy loss              | 0.21605036    |
+| reward signal mean       | 0.41089422    |
+| value loss               | 1.7154708     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.8125         |
+| demo acc                 | 0.125          |
+| discriminator loss agent | 0.5119073      |
+| discriminator loss demo  | 0.8752247      |
+| discriminator loss total | 1.3871319      |
+| entropy loss             | 0.47137925     |
+| frac                     | 0.0            |
+| kl                       | -0.00010826468 |
+| loss                     | -0.1426765     |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 191            |
+| min 100 episode reward   | 133            |
+| num episodes             | 1750           |
+| policy loss              | -0.24702741    |
+| reward signal mean       | 0.37776366     |
+| value loss               | 0.2181294      |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.6875        |
+| demo acc                 | 0.75          |
+| discriminator loss agent | 0.64043283    |
+| discriminator loss demo  | 0.49490303    |
+| discriminator loss total | 1.1353359     |
+| entropy loss             | 0.5392281     |
+| frac                     | 0.0           |
+| kl                       | 0.00014744303 |
+| loss                     | 15.134872     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 192           |
+| min 100 episode reward   | 133           |
+| num episodes             | 1816          |
+| policy loss              | 0.14760906    |
+| reward signal mean       | 0.44890442    |
+| value loss               | 29.985312     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.71875       |
+| demo acc                 | 0.40625       |
+| discriminator loss agent | 0.6193889     |
+| discriminator loss demo  | 0.8619323     |
+| discriminator loss total | 1.4813211     |
+| entropy loss             | 0.5254959     |
+| frac                     | 0.0           |
+| kl                       | -0.0013630416 |
+| loss                     | 1.4838637     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 194           |
+| min 100 episode reward   | 123           |
+| num episodes             | 1882          |
+| policy loss              | 0.032364763   |
+| reward signal mean       | 0.47382182    |
+| value loss               | 2.913508      |
+--------------------------------------------
+-------------------------------------------
+| agent acc                | 0.96875      |
+| demo acc                 | 0.4375       |
+| discriminator loss agent | 0.38782084   |
+| discriminator loss demo  | 0.8025438    |
+| discriminator loss total | 1.1903646    |
+| entropy loss             | 0.5524416    |
+| frac                     | 0.21875      |
+| kl                       | 0.0003162052 |
+| loss                     | -0.09766885  |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 191          |
+| min 100 episode reward   | 123          |
+| num episodes             | 1948         |
+| policy loss              | -0.15837082  |
+| reward signal mean       | 0.31777257   |
+| value loss               | 0.13245279   |
+-------------------------------------------
+--------------------------------------------
+| agent acc                | 0.84375       |
+| demo acc                 | 0.6875        |
+| discriminator loss agent | 0.5337064     |
+| discriminator loss demo  | 0.44985706    |
+| discriminator loss total | 0.9835635     |
+| entropy loss             | 0.46593004    |
+| frac                     | 0.28125       |
+| kl                       | -0.0010231106 |
+| loss                     | 19.321684     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 196           |
+| min 100 episode reward   | 154           |
+| num episodes             | 2014          |
+| policy loss              | 0.19186005    |
+| reward signal mean       | 0.40116236    |
+| value loss               | 38.268967     |
+--------------------------------------------
+-------------------------------------------
+| agent acc                | 0.75         |
+| demo acc                 | 0.4375       |
+| discriminator loss agent | 0.74494886   |
+| discriminator loss demo  | 0.9365698    |
+| discriminator loss total | 1.6815187    |
+| entropy loss             | 0.47177234   |
+| frac                     | 0.21875      |
+| kl                       | -0.003037902 |
+| loss                     | 0.94336224   |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 194          |
+| min 100 episode reward   | 150          |
+| num episodes             | 2080         |
+| policy loss              | -0.09692253  |
+| reward signal mean       | 0.4413355    |
+| value loss               | 2.090005     |
+-------------------------------------------
+-------------------------------------------
+| agent acc                | 0.40625      |
+| demo acc                 | 0.46875      |
+| discriminator loss agent | 0.79154503   |
+| discriminator loss demo  | 0.75959706   |
+| discriminator loss total | 1.5511421    |
+| entropy loss             | 0.5125747    |
+| frac                     | 0.03125      |
+| kl                       | -9.31737e-05 |
+| loss                     | 1.5660418    |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 190          |
+| min 100 episode reward   | 105          |
+| num episodes             | 2149         |
+| policy loss              | 0.20812544   |
+| reward signal mean       | 0.5003959    |
+| value loss               | 2.7260842    |
+-------------------------------------------
+--------------------------------------------
+| agent acc                | 1.0           |
+| demo acc                 | 0.71875       |
+| discriminator loss agent | 0.30194888    |
+| discriminator loss demo  | 0.4016934     |
+| discriminator loss total | 0.70364225    |
+| entropy loss             | 0.45782748    |
+| frac                     | 0.125         |
+| kl                       | -0.0012824645 |
+| loss                     | 31.983591     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 197           |
+| min 100 episode reward   | 136           |
+| num episodes             | 2215          |
+| policy loss              | 0.061082155   |
+| reward signal mean       | 0.26909396    |
+| value loss               | 63.85417      |
+--------------------------------------------
+-------------------------------------------
+| agent acc                | 1.0          |
+| demo acc                 | 0.78125      |
+| discriminator loss agent | 0.27479228   |
+| discriminator loss demo  | 0.44897395   |
+| discriminator loss total | 0.7237662    |
+| entropy loss             | 0.44978124   |
+| frac                     | 0.3125       |
+| kl                       | 5.239091e-05 |
+| loss                     | 0.40704685   |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 193          |
+| min 100 episode reward   | 110          |
+| num episodes             | 2281         |
+| policy loss              | -0.017609417 |
+| reward signal mean       | 0.24954337   |
+| value loss               | 0.8583082    |
+-------------------------------------------
+--------------------------------------------
+| agent acc                | 0.71875       |
+| demo acc                 | 0.53125       |
+| discriminator loss agent | 0.56104517    |
+| discriminator loss demo  | 0.7107394     |
+| discriminator loss total | 1.2717845     |
+| entropy loss             | 0.51107836    |
+| frac                     | 0.09375       |
+| kl                       | -0.0016111498 |
+| loss                     | 0.90351564    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 182           |
+| min 100 episode reward   | 15            |
+| num episodes             | 2352          |
+| policy loss              | 0.16248682    |
+| reward signal mean       | 0.43666154    |
+| value loss               | 1.4922792     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.59375       |
+| demo acc                 | 0.5           |
+| discriminator loss agent | 0.63156843    |
+| discriminator loss demo  | 0.709918      |
+| discriminator loss total | 1.3414865     |
+| entropy loss             | 0.4377429     |
+| frac                     | 0.03125       |
+| kl                       | 4.4921617e-05 |
+| loss                     | 0.40451473    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 197           |
+| min 100 episode reward   | 162           |
+| num episodes             | 2417          |
+| policy loss              | 0.17134812    |
+| reward signal mean       | 0.44067734    |
+| value loss               | 0.47508806    |
+--------------------------------------------
+-------------------------------------------
+| agent acc                | 0.875        |
+| demo acc                 | 0.9375       |
+| discriminator loss agent | 0.26139486   |
+| discriminator loss demo  | 0.4045698    |
+| discriminator loss total | 0.66596466   |
+| entropy loss             | 0.50577295   |
+| frac                     | 0.0          |
+| kl                       | 0.0007726626 |
+| loss                     | 2.818742     |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 189          |
+| min 100 episode reward   | 121          |
+| num episodes             | 2486         |
+| policy loss              | -0.015782818 |
+| reward signal mean       | 0.20488147   |
+| value loss               | 5.6791654    |
+-------------------------------------------
+---------------------------------------------
+| agent acc                | 0.8125         |
+| demo acc                 | 0.40625        |
+| discriminator loss agent | 0.514519       |
+| discriminator loss demo  | 0.8471008      |
+| discriminator loss total | 1.3616197      |
+| entropy loss             | 0.52446777     |
+| frac                     | 0.0            |
+| kl                       | -0.00056278927 |
+| loss                     | 0.020927818    |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 187            |
+| min 100 episode reward   | 21             |
+| num episodes             | 2553           |
+| policy loss              | -0.098030664   |
+| reward signal mean       | 0.38847739     |
+| value loss               | 0.24840632     |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.65625       |
+| demo acc                 | 0.34375       |
+| discriminator loss agent | 0.69473517    |
+| discriminator loss demo  | 0.92048216    |
+| discriminator loss total | 1.6152173     |
+| entropy loss             | 0.5460286     |
+| frac                     | 0.0           |
+| kl                       | 0.00024146086 |
+| loss                     | 7.463815      |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 198           |
+| min 100 episode reward   | 142           |
+| num episodes             | 2618          |
+| policy loss              | 0.13724439    |
+| reward signal mean       | 0.44464207    |
+| value loss               | 14.6640625    |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.875          |
+| demo acc                 | 0.8125         |
+| discriminator loss agent | 0.30062836     |
+| discriminator loss demo  | 0.63668334     |
+| discriminator loss total | 0.9373117      |
+| entropy loss             | 0.5160943      |
+| frac                     | 0.0            |
+| kl                       | -5.2446034e-05 |
+| loss                     | 4.5161386      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 193            |
+| min 100 episode reward   | 115            |
+| num episodes             | 2686           |
+| policy loss              | 0.29029962     |
+| reward signal mean       | 0.24267371     |
+| value loss               | 8.462          |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.84375       |
+| demo acc                 | 0.65625       |
+| discriminator loss agent | 0.437755      |
+| discriminator loss demo  | 0.6817108     |
+| discriminator loss total | 1.1194658     |
+| entropy loss             | 0.53994584    |
+| frac                     | 0.0           |
+| kl                       | -0.0010747559 |
+| loss                     | 2.8267386     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 189           |
+| min 100 episode reward   | 115           |
+| num episodes             | 2753          |
+| policy loss              | -0.009598136  |
+| reward signal mean       | 0.34157997    |
+| value loss               | 5.6834726     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.15625        |
+| demo acc                 | 0.4375         |
+| discriminator loss agent | 1.7885275      |
+| discriminator loss demo  | 0.8682748      |
+| discriminator loss total | 2.6568022      |
+| entropy loss             | 0.58456653     |
+| frac                     | 0.0            |
+| kl                       | -0.00022022589 |
+| loss                     | 13.239343      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 195            |
+| min 100 episode reward   | 153            |
+| num episodes             | 2818           |
+| policy loss              | -0.047698062   |
+| reward signal mean       | 0.65604734     |
+| value loss               | 26.585773      |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.625          |
+| demo acc                 | 0.59375        |
+| discriminator loss agent | 0.8721491      |
+| discriminator loss demo  | 0.7731539      |
+| discriminator loss total | 1.645303       |
+| entropy loss             | 0.497694       |
+| frac                     | 0.0            |
+| kl                       | -3.2617245e-05 |
+| loss                     | 6.4646106      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 195            |
+| min 100 episode reward   | 151            |
+| num episodes             | 2885           |
+| policy loss              | 0.091647305    |
+| reward signal mean       | 0.46596596     |
+| value loss               | 12.75588       |
+---------------------------------------------
+-------------------------------------------
+| agent acc                | 0.8125       |
+| demo acc                 | 0.4375       |
+| discriminator loss agent | 0.43934515   |
+| discriminator loss demo  | 0.806651     |
+| discriminator loss total | 1.2459961    |
+| entropy loss             | 0.56445915   |
+| frac                     | 0.0          |
+| kl                       | 3.391772e-05 |
+| loss                     | 0.9751388    |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 190          |
+| min 100 episode reward   | 111          |
+| num episodes             | 2953         |
+| policy loss              | -0.20150226  |
+| reward signal mean       | 0.34984046   |
+| value loss               | 2.3645713    |
+-------------------------------------------
+---------------------------------------------
+| agent acc                | 0.3125         |
+| demo acc                 | 0.4375         |
+| discriminator loss agent | 1.197026       |
+| discriminator loss demo  | 0.7936604      |
+| discriminator loss total | 1.9906864      |
+| entropy loss             | 0.5076261      |
+| frac                     | 0.03125        |
+| kl                       | -0.00059956836 |
+| loss                     | 6.2846365      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 190            |
+| min 100 episode reward   | 67             |
+| num episodes             | 3021           |
+| policy loss              | -0.043300487   |
+| reward signal mean       | 0.58372027     |
+| value loss               | 12.666027      |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.8125        |
+| demo acc                 | 0.375         |
+| discriminator loss agent | 0.56819427    |
+| discriminator loss demo  | 0.8361733     |
+| discriminator loss total | 1.4043676     |
+| entropy loss             | 0.5571054     |
+| frac                     | 0.0           |
+| kl                       | 0.00016388553 |
+| loss                     | 0.018622464   |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 188           |
+| min 100 episode reward   | 76            |
+| num episodes             | 3088          |
+| policy loss              | -0.074004     |
+| reward signal mean       | 0.42026174    |
+| value loss               | 0.19639504    |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.75          |
+| demo acc                 | 0.5           |
+| discriminator loss agent | 0.5539805     |
+| discriminator loss demo  | 0.69138706    |
+| discriminator loss total | 1.2453675     |
+| entropy loss             | 0.51419395    |
+| frac                     | 0.03125       |
+| kl                       | -0.0010534094 |
+| loss                     | 2.1644475     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 196           |
+| min 100 episode reward   | 141           |
+| num episodes             | 3153          |
+| policy loss              | 0.17544049    |
+| reward signal mean       | 0.4619908     |
+| value loss               | 3.9882982     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.65625       |
+| demo acc                 | 0.59375       |
+| discriminator loss agent | 0.53916144    |
+| discriminator loss demo  | 0.6638772     |
+| discriminator loss total | 1.2030387     |
+| entropy loss             | 0.47766593    |
+| frac                     | 0.0           |
+| kl                       | 0.00025567645 |
+| loss                     | 0.47065708    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 190           |
+| min 100 episode reward   | 107           |
+| num episodes             | 3222          |
+| policy loss              | 0.058942404   |
+| reward signal mean       | 0.36290368    |
+| value loss               | 0.83298266    |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.875          |
+| demo acc                 | 0.625          |
+| discriminator loss agent | 0.4775861      |
+| discriminator loss demo  | 0.64383876     |
+| discriminator loss total | 1.1214249      |
+| entropy loss             | 0.5041381      |
+| frac                     | 0.03125        |
+| kl                       | -0.00021987275 |
+| loss                     | 13.728396      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 198            |
+| min 100 episode reward   | 168            |
+| num episodes             | 3287           |
+| policy loss              | -0.017949618   |
+| reward signal mean       | 0.37668443     |
+| value loss               | 27.502775      |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.9375        |
+| demo acc                 | 0.5625        |
+| discriminator loss agent | 0.49446166    |
+| discriminator loss demo  | 0.64166135    |
+| discriminator loss total | 1.136123      |
+| entropy loss             | 0.49266094    |
+| frac                     | 0.0           |
+| kl                       | -0.0006480243 |
+| loss                     | 0.16301872    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 193           |
+| min 100 episode reward   | 136           |
+| num episodes             | 3353          |
+| policy loss              | -0.0030372143 |
+| reward signal mean       | 0.3919043     |
+| value loss               | 0.34196508    |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.40625       |
+| demo acc                 | 0.78125       |
+| discriminator loss agent | 0.78282213    |
+| discriminator loss demo  | 0.64071023    |
+| discriminator loss total | 1.4235324     |
+| entropy loss             | 0.48511025    |
+| frac                     | 0.125         |
+| kl                       | -0.0002955043 |
+| loss                     | 2.3027499     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 189           |
+| min 100 episode reward   | 125           |
+| num episodes             | 3421          |
+| policy loss              | -0.05421777   |
+| reward signal mean       | 0.52746516    |
+| value loss               | 4.7236376     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.625         |
+| demo acc                 | 0.625         |
+| discriminator loss agent | 0.66674924    |
+| discriminator loss demo  | 0.6423675     |
+| discriminator loss total | 1.3091167     |
+| entropy loss             | 0.49629867    |
+| frac                     | 0.0           |
+| kl                       | 0.00026161293 |
+| loss                     | 1.7717444     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 192           |
+| min 100 episode reward   | 126           |
+| num episodes             | 3487          |
+| policy loss              | -0.14583032   |
+| reward signal mean       | 0.49801707    |
+| value loss               | 3.8450754     |
+--------------------------------------------
+-------------------------------------------
+| agent acc                | 0.625        |
+| demo acc                 | 0.78125      |
+| discriminator loss agent | 0.5954       |
+| discriminator loss demo  | 0.62666947   |
+| discriminator loss total | 1.2220695    |
+| entropy loss             | 0.54817206   |
+| frac                     | 0.0          |
+| kl                       | 3.957725e-05 |
+| loss                     | 1.2749536    |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 190          |
+| min 100 episode reward   | 118          |
+| num episodes             | 3554         |
+| policy loss              | -0.23497637  |
+| reward signal mean       | 0.43076754   |
+| value loss               | 3.0308235    |
+-------------------------------------------
+--------------------------------------------
+| agent acc                | 1.0           |
+| demo acc                 | 0.71875       |
+| discriminator loss agent | 0.43652147    |
+| discriminator loss demo  | 0.50926226    |
+| discriminator loss total | 0.94578373    |
+| entropy loss             | 0.42585242    |
+| frac                     | 0.03125       |
+| kl                       | -0.0012713792 |
+| loss                     | 27.74504      |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 196           |
+| min 100 episode reward   | 118           |
+| num episodes             | 3618          |
+| policy loss              | 0.072593264   |
+| reward signal mean       | 0.34732622    |
+| value loss               | 55.353413     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.625          |
+| demo acc                 | 0.28125        |
+| discriminator loss agent | 0.5968686      |
+| discriminator loss demo  | 0.8677608      |
+| discriminator loss total | 1.4646294      |
+| entropy loss             | 0.51384515     |
+| frac                     | 0.0            |
+| kl                       | -0.00034349534 |
+| loss                     | 0.6042463      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 195            |
+| min 100 episode reward   | 124            |
+| num episodes             | 3684           |
+| policy loss              | 0.12807561     |
+| reward signal mean       | 0.44601363     |
+| value loss               | 0.96261835     |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.78125       |
+| demo acc                 | 0.84375       |
+| discriminator loss agent | 0.42829812    |
+| discriminator loss demo  | 0.49819034    |
+| discriminator loss total | 0.92648846    |
+| entropy loss             | 0.523426      |
+| frac                     | 0.0           |
+| kl                       | 0.00024231395 |
+| loss                     | 2.2101054     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 192           |
+| min 100 episode reward   | 74            |
+| num episodes             | 3752          |
+| policy loss              | 0.008819655   |
+| reward signal mean       | 0.29132912    |
+| value loss               | 4.41304       |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.65625       |
+| demo acc                 | 0.65625       |
+| discriminator loss agent | 0.59800094    |
+| discriminator loss demo  | 0.6255924     |
+| discriminator loss total | 1.2235934     |
+| entropy loss             | 0.52591884    |
+| frac                     | 0.25          |
+| kl                       | -0.0013411774 |
+| loss                     | -0.0005439245 |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 155           |
+| min 100 episode reward   | 17            |
+| num episodes             | 3835          |
+| policy loss              | -0.2532398    |
+| reward signal mean       | 0.44872308    |
+| value loss               | 0.51591015    |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.375          |
+| demo acc                 | 0.75           |
+| discriminator loss agent | 0.7387496      |
+| discriminator loss demo  | 0.6312599      |
+| discriminator loss total | 1.3700095      |
+| entropy loss             | 0.50500685     |
+| frac                     | 0.0            |
+| kl                       | -0.00060439215 |
+| loss                     | -0.012915945   |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 194            |
+| min 100 episode reward   | 142            |
+| num episodes             | 3901           |
+| policy loss              | -0.26639473    |
+| reward signal mean       | 0.51691675     |
+| value loss               | 0.5170577      |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 1.0            |
+| demo acc                 | 0.59375        |
+| discriminator loss agent | 0.3625786      |
+| discriminator loss demo  | 0.6027038      |
+| discriminator loss total | 0.96528244     |
+| entropy loss             | 0.44091958     |
+| frac                     | 0.0            |
+| kl                       | -0.00042273354 |
+| loss                     | 63.269238      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 197            |
+| min 100 episode reward   | 142            |
+| num episodes             | 3966           |
+| policy loss              | 0.08458845     |
+| reward signal mean       | 0.303266       |
+| value loss               | 126.37812      |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.8125         |
+| demo acc                 | 0.65625        |
+| discriminator loss agent | 0.54501903     |
+| discriminator loss demo  | 0.60717416     |
+| discriminator loss total | 1.1521932      |
+| entropy loss             | 0.46666145     |
+| frac                     | 0.15625        |
+| kl                       | -0.00040539508 |
+| loss                     | 13.582841      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 190            |
+| min 100 episode reward   | 120            |
+| num episodes             | 4035           |
+| policy loss              | 0.13282827     |
+| reward signal mean       | 0.4243949      |
+| value loss               | 26.909357      |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 1.0           |
+| demo acc                 | 0.65625       |
+| discriminator loss agent | 0.34162495    |
+| discriminator loss demo  | 0.48422128    |
+| discriminator loss total | 0.8258462     |
+| entropy loss             | 0.44025657    |
+| frac                     | 0.03125       |
+| kl                       | 0.00030022266 |
+| loss                     | 37.90835      |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 187           |
+| min 100 episode reward   | 118           |
+| num episodes             | 4102          |
+| policy loss              | 0.0795922     |
+| reward signal mean       | 0.2846472     |
+| value loss               | 75.66632      |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.5625         |
+| demo acc                 | 0.53125        |
+| discriminator loss agent | 0.579472       |
+| discriminator loss demo  | 0.71068466     |
+| discriminator loss total | 1.2901566      |
+| entropy loss             | 0.5476346      |
+| frac                     | 0.0            |
+| kl                       | -0.00030592538 |
+| loss                     | 1.7443235      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 192            |
+| min 100 episode reward   | 116            |
+| num episodes             | 4168           |
+| policy loss              | -0.05087083    |
+| reward signal mean       | 0.41145903     |
+| value loss               | 3.6013412      |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.8125        |
+| demo acc                 | 0.53125       |
+| discriminator loss agent | 0.52081054    |
+| discriminator loss demo  | 0.7394929     |
+| discriminator loss total | 1.2603035     |
+| entropy loss             | 0.4632336     |
+| frac                     | 0.0           |
+| kl                       | -0.0002990677 |
+| loss                     | 2.1632137     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 196           |
+| min 100 episode reward   | 116           |
+| num episodes             | 4232          |
+| policy loss              | 0.03377973    |
+| reward signal mean       | 0.3883153     |
+| value loss               | 4.2681327     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.59375       |
+| demo acc                 | 0.28125       |
+| discriminator loss agent | 0.55750036    |
+| discriminator loss demo  | 0.7735953     |
+| discriminator loss total | 1.3310957     |
+| entropy loss             | 0.5080228     |
+| frac                     | 0.0           |
+| kl                       | 0.00050101476 |
+| loss                     | 0.30797932    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 182           |
+| min 100 episode reward   | 25            |
+| num episodes             | 4305          |
+| policy loss              | -0.3047386    |
+| reward signal mean       | 0.4220295     |
+| value loss               | 1.2355963     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.71875        |
+| demo acc                 | 0.875          |
+| discriminator loss agent | 0.52545685     |
+| discriminator loss demo  | 0.56918097     |
+| discriminator loss total | 1.0946379      |
+| entropy loss             | 0.48009607     |
+| frac                     | 0.03125        |
+| kl                       | -0.00082971656 |
+| loss                     | 3.2553124      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 195            |
+| min 100 episode reward   | 117            |
+| num episodes             | 4370           |
+| policy loss              | -0.011150554   |
+| reward signal mean       | 0.3675732      |
+| value loss               | 6.542528       |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.78125       |
+| demo acc                 | 0.59375       |
+| discriminator loss agent | 0.4503289     |
+| discriminator loss demo  | 0.6885588     |
+| discriminator loss total | 1.1388876     |
+| entropy loss             | 0.48315126    |
+| frac                     | 0.0625        |
+| kl                       | -0.0005274019 |
+| loss                     | 1.176588      |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 195           |
+| min 100 episode reward   | 127           |
+| num episodes             | 4436          |
+| policy loss              | -0.09341562   |
+| reward signal mean       | 0.3382416     |
+| value loss               | 2.5496705     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.84375       |
+| demo acc                 | 0.65625       |
+| discriminator loss agent | 0.6096178     |
+| discriminator loss demo  | 0.5792        |
+| discriminator loss total | 1.1888179     |
+| entropy loss             | 0.522809      |
+| frac                     | 0.0           |
+| kl                       | -3.316393e-05 |
+| loss                     | 0.45362812    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 195           |
+| min 100 episode reward   | 144           |
+| num episodes             | 4501          |
+| policy loss              | 0.054358944   |
+| reward signal mean       | 0.44872853    |
+| value loss               | 0.8089946     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.5625         |
+| demo acc                 | 0.5625         |
+| discriminator loss agent | 0.74719745     |
+| discriminator loss demo  | 0.62983876     |
+| discriminator loss total | 1.3770362      |
+| entropy loss             | 0.5458985      |
+| frac                     | 0.0            |
+| kl                       | -0.00042948488 |
+| loss                     | 3.2324252      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 197            |
+| min 100 episode reward   | 122            |
+| num episodes             | 4566           |
+| policy loss              | -0.1586183     |
+| reward signal mean       | 0.50228333     |
+| value loss               | 6.793005       |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.8125         |
+| demo acc                 | 0.34375        |
+| discriminator loss agent | 0.528368       |
+| discriminator loss demo  | 0.94475615     |
+| discriminator loss total | 1.4731241      |
+| entropy loss             | 0.5270377      |
+| frac                     | 0.25           |
+| kl                       | -0.00070659886 |
+| loss                     | 0.13110657     |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 197            |
+| min 100 episode reward   | 122            |
+| num episodes             | 4631           |
+| policy loss              | 0.018568665    |
+| reward signal mean       | 0.4038525      |
+| value loss               | 0.23561655     |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.25          |
+| demo acc                 | 0.78125       |
+| discriminator loss agent | 0.7008297     |
+| discriminator loss demo  | 0.5803672     |
+| discriminator loss total | 1.2811968     |
+| entropy loss             | 0.5334265     |
+| frac                     | 0.0           |
+| kl                       | 0.00010755262 |
+| loss                     | 10.735358     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 189           |
+| min 100 episode reward   | 117           |
+| num episodes             | 4700          |
+| policy loss              | 0.031809032   |
+| reward signal mean       | 0.48539168    |
+| value loss               | 21.417767     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.84375        |
+| demo acc                 | 0.5            |
+| discriminator loss agent | 0.41670176     |
+| discriminator loss demo  | 0.7578406      |
+| discriminator loss total | 1.1745423      |
+| entropy loss             | 0.5344981      |
+| frac                     | 0.0            |
+| kl                       | -8.0968486e-05 |
+| loss                     | 0.8335612      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 194            |
+| min 100 episode reward   | 117            |
+| num episodes             | 4765           |
+| policy loss              | 0.12507018     |
+| reward signal mean       | 0.32993782     |
+| value loss               | 1.4276719      |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.96875        |
+| demo acc                 | 0.78125        |
+| discriminator loss agent | 0.2730446      |
+| discriminator loss demo  | 0.43099806     |
+| discriminator loss total | 0.7040427      |
+| entropy loss             | 0.47368264     |
+| frac                     | 0.25           |
+| kl                       | -0.00079430337 |
+| loss                     | 14.640992      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 190            |
+| min 100 episode reward   | 115            |
+| num episodes             | 4833           |
+| policy loss              | -0.088120215   |
+| reward signal mean       | 0.2444472      |
+| value loss               | 29.4677        |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.375         |
+| demo acc                 | 0.625         |
+| discriminator loss agent | 0.7101667     |
+| discriminator loss demo  | 0.66436       |
+| discriminator loss total | 1.3745267     |
+| entropy loss             | 0.5410343     |
+| frac                     | 0.0           |
+| kl                       | -0.0008790487 |
+| loss                     | 2.4172933     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 193           |
+| min 100 episode reward   | 128           |
+| num episodes             | 4900          |
+| policy loss              | -0.031853728  |
+| reward signal mean       | 0.48249215    |
+| value loss               | 4.909115      |
+--------------------------------------------
+-------------------------------------------
+| agent acc                | 0.78125      |
+| demo acc                 | 0.4375       |
+| discriminator loss agent | 0.59631765   |
+| discriminator loss demo  | 0.84546375   |
+| discriminator loss total | 1.4417814    |
+| entropy loss             | 0.4594643    |
+| frac                     | 0.15625      |
+| kl                       | 0.0003386942 |
+| loss                     | 0.28853124   |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 197          |
+| min 100 episode reward   | 137          |
+| num episodes             | 4964         |
+| policy loss              | 0.16962749   |
+| reward signal mean       | 0.43339396   |
+| value loss               | 0.2469968    |
+-------------------------------------------
+---------------------------------------------
+| agent acc                | 0.40625        |
+| demo acc                 | 0.6875         |
+| discriminator loss agent | 0.7325469      |
+| discriminator loss demo  | 0.63646185     |
+| discriminator loss total | 1.3690088      |
+| entropy loss             | 0.43553302     |
+| frac                     | 0.0            |
+| kl                       | -0.00018345495 |
+| loss                     | 2.5294352      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 190            |
+| min 100 episode reward   | 120            |
+| num episodes             | 5033           |
+| policy loss              | -0.19925871    |
+| reward signal mean       | 0.47859308     |
+| value loss               | 5.466099       |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.5625         |
+| demo acc                 | 0.34375        |
+| discriminator loss agent | 0.70186496     |
+| discriminator loss demo  | 0.7752181      |
+| discriminator loss total | 1.4770831      |
+| entropy loss             | 0.48599517     |
+| frac                     | 0.0            |
+| kl                       | -0.00028261787 |
+| loss                     | 6.478272       |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 194            |
+| min 100 episode reward   | 130            |
+| num episodes             | 5099           |
+| policy loss              | 0.48890072     |
+| reward signal mean       | 0.45545536     |
+| value loss               | 11.988462      |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.96875       |
+| demo acc                 | 0.75          |
+| discriminator loss agent | 0.4777697     |
+| discriminator loss demo  | 0.45697513    |
+| discriminator loss total | 0.93474483    |
+| entropy loss             | 0.4537471     |
+| frac                     | 0.03125       |
+| kl                       | -0.0016100628 |
+| loss                     | 14.618359     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 195           |
+| min 100 episode reward   | 148           |
+| num episodes             | 5164          |
+| policy loss              | -0.074721605  |
+| reward signal mean       | 0.3743276     |
+| value loss               | 29.395235     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.59375        |
+| demo acc                 | 0.8125         |
+| discriminator loss agent | 0.69606453     |
+| discriminator loss demo  | 0.4703835      |
+| discriminator loss total | 1.166448       |
+| entropy loss             | 0.52010024     |
+| frac                     | 0.0            |
+| kl                       | -0.00034246576 |
+| loss                     | 70.23481       |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 194            |
+| min 100 episode reward   | 121            |
+| num episodes             | 5230           |
+| policy loss              | 0.20198643     |
+| reward signal mean       | 0.49407965     |
+| value loss               | 140.07605      |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.53125        |
+| demo acc                 | 0.1875         |
+| discriminator loss agent | 0.6831565      |
+| discriminator loss demo  | 1.197453       |
+| discriminator loss total | 1.8806095      |
+| entropy loss             | 0.49599987     |
+| frac                     | 0.0            |
+| kl                       | -0.00058794493 |
+| loss                     | 1.6564654      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 197            |
+| min 100 episode reward   | 146            |
+| num episodes             | 5295           |
+| policy loss              | 0.3626024      |
+| reward signal mean       | 0.44483382     |
+| value loss               | 2.5976458      |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.90625       |
+| demo acc                 | 0.21875       |
+| discriminator loss agent | 0.4391337     |
+| discriminator loss demo  | 0.81165886    |
+| discriminator loss total | 1.2507925     |
+| entropy loss             | 0.4845708     |
+| frac                     | 0.0           |
+| kl                       | 5.2658375e-05 |
+| loss                     | 0.3507478     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 193           |
+| min 100 episode reward   | 124           |
+| num episodes             | 5362          |
+| policy loss              | 0.025136769   |
+| reward signal mean       | 0.35301742    |
+| value loss               | 0.66091347    |
+--------------------------------------------
+-------------------------------------------
+| agent acc                | 0.90625      |
+| demo acc                 | 0.8125       |
+| discriminator loss agent | 0.49760574   |
+| discriminator loss demo  | 0.44224906   |
+| discriminator loss total | 0.9398548    |
+| entropy loss             | 0.46386045   |
+| frac                     | 0.0          |
+| kl                       | 0.0007605778 |
+| loss                     | 0.06250448   |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 194          |
+| min 100 episode reward   | 117          |
+| num episodes             | 5428         |
+| policy loss              | -0.10465531  |
+| reward signal mean       | 0.37862918   |
+| value loss               | 0.3435968    |
+-------------------------------------------
+---------------------------------------------
+| agent acc                | 0.90625        |
+| demo acc                 | 0.53125        |
+| discriminator loss agent | 0.48712057     |
+| discriminator loss demo  | 0.6717221      |
+| discriminator loss total | 1.1588427      |
+| entropy loss             | 0.47762078     |
+| frac                     | 0.0            |
+| kl                       | -0.00020875817 |
+| loss                     | 1.1395988      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 193            |
+| min 100 episode reward   | 115            |
+| num episodes             | 5494           |
+| policy loss              | 0.36493105     |
+| reward signal mean       | 0.3886719      |
+| value loss               | 1.5588882      |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.5625         |
+| demo acc                 | 0.875          |
+| discriminator loss agent | 0.6931363      |
+| discriminator loss demo  | 0.50823575     |
+| discriminator loss total | 1.201372       |
+| entropy loss             | 0.46904308     |
+| frac                     | 0.03125        |
+| kl                       | -0.00025231022 |
+| loss                     | 0.17364202     |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 196            |
+| min 100 episode reward   | 120            |
+| num episodes             | 5559           |
+| policy loss              | -0.058656566   |
+| reward signal mean       | 0.46112323     |
+| value loss               | 0.473978       |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.6875        |
+| demo acc                 | 0.375         |
+| discriminator loss agent | 0.5878309     |
+| discriminator loss demo  | 0.7168961     |
+| discriminator loss total | 1.3047271     |
+| entropy loss             | 0.52342826    |
+| frac                     | 0.0           |
+| kl                       | -0.0004222839 |
+| loss                     | 0.42126763    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 194           |
+| min 100 episode reward   | 115           |
+| num episodes             | 5625          |
+| policy loss              | 0.11222395    |
+| reward signal mean       | 0.4232722     |
+| value loss               | 0.6285559     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.65625       |
+| demo acc                 | 0.65625       |
+| discriminator loss agent | 0.74228746    |
+| discriminator loss demo  | 0.5553756     |
+| discriminator loss total | 1.297663      |
+| entropy loss             | 0.49196723    |
+| frac                     | 0.0           |
+| kl                       | 0.00018264147 |
+| loss                     | 3.1022737     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 194           |
+| min 100 episode reward   | 115           |
+| num episodes             | 5691          |
+| policy loss              | -0.15334997   |
+| reward signal mean       | 0.44899714    |
+| value loss               | 6.5210867     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.6875         |
+| demo acc                 | 0.46875        |
+| discriminator loss agent | 0.43617642     |
+| discriminator loss demo  | 0.79931164     |
+| discriminator loss total | 1.235488       |
+| entropy loss             | 0.4723027      |
+| frac                     | 0.0            |
+| kl                       | -0.00060721306 |
+| loss                     | 2.3090136      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 192            |
+| min 100 episode reward   | 143            |
+| num episodes             | 5758           |
+| policy loss              | -0.16533212    |
+| reward signal mean       | 0.35554194     |
+| value loss               | 4.9581375      |
+---------------------------------------------
+-------------------------------------------
+| agent acc                | 0.6875       |
+| demo acc                 | 0.78125      |
+| discriminator loss agent | 0.7546998    |
+| discriminator loss demo  | 0.47416177   |
+| discriminator loss total | 1.2288616    |
+| entropy loss             | 0.48850706   |
+| frac                     | 0.0          |
+| kl                       | 0.0004044123 |
+| loss                     | 8.7886715    |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 195          |
+| min 100 episode reward   | 143          |
+| num episodes             | 5823         |
+| policy loss              | 0.31648463   |
+| reward signal mean       | 0.4584004    |
+| value loss               | 16.954144    |
+-------------------------------------------
+--------------------------------------------
+| agent acc                | 0.71875       |
+| demo acc                 | 0.5625        |
+| discriminator loss agent | 0.4899235     |
+| discriminator loss demo  | 0.7131512     |
+| discriminator loss total | 1.2030747     |
+| entropy loss             | 0.46301275    |
+| frac                     | 0.0625        |
+| kl                       | -0.0007802869 |
+| loss                     | 0.557564      |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 195           |
+| min 100 episode reward   | 25            |
+| num episodes             | 5888          |
+| policy loss              | -0.066100195  |
+| reward signal mean       | 0.3713068     |
+| value loss               | 1.2565887     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.75           |
+| demo acc                 | 0.40625        |
+| discriminator loss agent | 0.5909719      |
+| discriminator loss demo  | 0.8015154      |
+| discriminator loss total | 1.3924873      |
+| entropy loss             | 0.51803774     |
+| frac                     | 0.0            |
+| kl                       | -0.00054233376 |
+| loss                     | 0.47151646     |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 198            |
+| min 100 episode reward   | 159            |
+| num episodes             | 5953           |
+| policy loss              | -0.27942222    |
+| reward signal mean       | 0.38823432     |
+| value loss               | 1.5122381      |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.90625       |
+| demo acc                 | 0.59375       |
+| discriminator loss agent | 0.4542118     |
+| discriminator loss demo  | 0.5998255     |
+| discriminator loss total | 1.0540373     |
+| entropy loss             | 0.5440508     |
+| frac                     | 0.0           |
+| kl                       | 0.00091028877 |
+| loss                     | 0.16145417    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 197           |
+| min 100 episode reward   | 170           |
+| num episodes             | 6019          |
+| policy loss              | -0.18539819   |
+| reward signal mean       | 0.35613847    |
+| value loss               | 0.70458573    |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.8125        |
+| demo acc                 | 0.40625       |
+| discriminator loss agent | 0.34058478    |
+| discriminator loss demo  | 0.7605144     |
+| discriminator loss total | 1.1010991     |
+| entropy loss             | 0.49225613    |
+| frac                     | 0.0           |
+| kl                       | -0.0001356483 |
+| loss                     | 0.5542128     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 198           |
+| min 100 episode reward   | 174           |
+| num episodes             | 6083          |
+| policy loss              | -0.1583937    |
+| reward signal mean       | 0.26315844    |
+| value loss               | 1.4350581     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.53125        |
+| demo acc                 | 0.40625        |
+| discriminator loss agent | 0.8139764      |
+| discriminator loss demo  | 0.8731126      |
+| discriminator loss total | 1.687089       |
+| entropy loss             | 0.49078223     |
+| frac                     | 0.0            |
+| kl                       | -0.00015201193 |
+| loss                     | 2.9203963      |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 196            |
+| min 100 episode reward   | 132            |
+| num episodes             | 6149           |
+| policy loss              | 0.12740988     |
+| reward signal mean       | 0.4752165      |
+| value loss               | 5.5957885      |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.46875       |
+| demo acc                 | 0.71875       |
+| discriminator loss agent | 1.0444175     |
+| discriminator loss demo  | 0.48600373    |
+| discriminator loss total | 1.5304213     |
+| entropy loss             | 0.4297704     |
+| frac                     | 0.0           |
+| kl                       | 0.00020050246 |
+| loss                     | 13.79381      |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 197           |
+| min 100 episode reward   | 132           |
+| num episodes             | 6213          |
+| policy loss              | 0.09623527    |
+| reward signal mean       | 0.5770831     |
+| value loss               | 27.403744     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.65625       |
+| demo acc                 | 0.375         |
+| discriminator loss agent | 0.59446084    |
+| discriminator loss demo  | 0.7602929     |
+| discriminator loss total | 1.3547537     |
+| entropy loss             | 0.44599834    |
+| frac                     | 0.0           |
+| kl                       | -0.0017721389 |
+| loss                     | 0.5250062     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 196           |
+| min 100 episode reward   | 158           |
+| num episodes             | 6279          |
+| policy loss              | 0.056073606   |
+| reward signal mean       | 0.44347212    |
+| value loss               | 0.9467851     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.125         |
+| demo acc                 | 0.59375       |
+| discriminator loss agent | 1.0237011     |
+| discriminator loss demo  | 0.6512672     |
+| discriminator loss total | 1.6749682     |
+| entropy loss             | 0.48735592    |
+| frac                     | 0.1875        |
+| kl                       | -0.0030540435 |
+| loss                     | 9.0239315     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 194           |
+| min 100 episode reward   | 133           |
+| num episodes             | 6346          |
+| policy loss              | -0.044673633  |
+| reward signal mean       | 0.6025181     |
+| value loss               | 18.146957     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.65625       |
+| demo acc                 | 0.375         |
+| discriminator loss agent | 0.629793      |
+| discriminator loss demo  | 0.71824235    |
+| discriminator loss total | 1.3480353     |
+| entropy loss             | 0.46073294    |
+| frac                     | 0.0625        |
+| kl                       | 0.00053569046 |
+| loss                     | 0.24111868    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 196           |
+| min 100 episode reward   | 133           |
+| num episodes             | 6410          |
+| policy loss              | -0.12174818   |
+| reward signal mean       | 0.46170127    |
+| value loss               | 0.7349484     |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.59375       |
+| demo acc                 | 0.46875       |
+| discriminator loss agent | 0.6171865     |
+| discriminator loss demo  | 0.6532965     |
+| discriminator loss total | 1.270483      |
+| entropy loss             | 0.5122542     |
+| frac                     | 0.0           |
+| kl                       | 0.00040729847 |
+| loss                     | 3.771827      |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 194           |
+| min 100 episode reward   | 132           |
+| num episodes             | 6477          |
+| policy loss              | 0.090861835   |
+| reward signal mean       | 0.42358148    |
+| value loss               | 7.372175      |
+--------------------------------------------
+--------------------------------------------
+| agent acc                | 0.4375        |
+| demo acc                 | 0.5           |
+| discriminator loss agent | 0.910001      |
+| discriminator loss demo  | 0.7568421     |
+| discriminator loss total | 1.666843      |
+| entropy loss             | 0.5214367     |
+| frac                     | 0.0           |
+| kl                       | 0.00022372798 |
+| loss                     | 3.5861557     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 193           |
+| min 100 episode reward   | 98            |
+| num episodes             | 6544          |
+| policy loss              | 0.24270165    |
+| reward signal mean       | 0.4861948     |
+| value loss               | 6.697337      |
+--------------------------------------------
+-------------------------------------------
+| agent acc                | 1.0          |
+| demo acc                 | 0.6875       |
+| discriminator loss agent | 0.2823083    |
+| discriminator loss demo  | 0.49877954   |
+| discriminator loss total | 0.7810879    |
+| entropy loss             | 0.51886815   |
+| frac                     | 0.09375      |
+| kl                       | -0.003162451 |
+| loss                     | 26.99905     |
+| max 100 episode reward   | 200          |
+| mean 100 episode reward  | 191          |
+| min 100 episode reward   | 98           |
+| num episodes             | 6610         |
+| policy loss              | -0.054772254 |
+| reward signal mean       | 0.2498972    |
+| value loss               | 54.11802     |
+-------------------------------------------
+---------------------------------------------
+| agent acc                | 0.84375        |
+| demo acc                 | 0.71875        |
+| discriminator loss agent | 0.57024986     |
+| discriminator loss demo  | 0.60292494     |
+| discriminator loss total | 1.1731749      |
+| entropy loss             | 0.49683744     |
+| frac                     | 0.03125        |
+| kl                       | -0.00032281887 |
+| loss                     | 0.32070777     |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 193            |
+| min 100 episode reward   | 125            |
+| num episodes             | 6676           |
+| policy loss              | -0.09613078    |
+| reward signal mean       | 0.43528387     |
+| value loss               | 0.84361386     |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.46875       |
+| demo acc                 | 0.5625        |
+| discriminator loss agent | 0.6878017     |
+| discriminator loss demo  | 0.6444093     |
+| discriminator loss total | 1.332211      |
+| entropy loss             | 0.5053191     |
+| frac                     | 0.0           |
+| kl                       | 0.00020955032 |
+| loss                     | 0.40835375    |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 197           |
+| min 100 episode reward   | 140           |
+| num episodes             | 6741          |
+| policy loss              | -0.026811445  |
+| reward signal mean       | 0.49886823    |
+| value loss               | 0.8804368     |
+--------------------------------------------
+---------------------------------------------
+| agent acc                | 0.71875        |
+| demo acc                 | 0.6875         |
+| discriminator loss agent | 0.48155698     |
+| discriminator loss demo  | 0.6109371      |
+| discriminator loss total | 1.0924941      |
+| entropy loss             | 0.5054884      |
+| frac                     | 0.0            |
+| kl                       | -0.00026683474 |
+| loss                     | 0.31266993     |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 196            |
+| min 100 episode reward   | 112            |
+| num episodes             | 6807           |
+| policy loss              | 0.09889141     |
+| reward signal mean       | 0.37989587     |
+| value loss               | 0.43766683     |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.40625        |
+| demo acc                 | 0.75           |
+| discriminator loss agent | 0.75171375     |
+| discriminator loss demo  | 0.6215326      |
+| discriminator loss total | 1.3732464      |
+| entropy loss             | 0.51841193     |
+| frac                     | 0.09375        |
+| kl                       | -0.0013060862  |
+| loss                     | 3.097633       |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 189            |
+| min 100 episode reward   | 112            |
+| num episodes             | 6875           |
+| policy loss              | -0.00076204725 |
+| reward signal mean       | 0.45354813     |
+| value loss               | 6.207158       |
+---------------------------------------------
+---------------------------------------------
+| agent acc                | 0.75           |
+| demo acc                 | 0.5            |
+| discriminator loss agent | 0.5964848      |
+| discriminator loss demo  | 0.66536766     |
+| discriminator loss total | 1.2618525      |
+| entropy loss             | 0.4971981      |
+| frac                     | 0.0            |
+| kl                       | -0.00033839454 |
+| loss                     | 4.20263        |
+| max 100 episode reward   | 200            |
+| mean 100 episode reward  | 193            |
+| min 100 episode reward   | 123            |
+| num episodes             | 6940           |
+| policy loss              | 0.031687737    |
+| reward signal mean       | 0.44124442     |
+| value loss               | 8.351829       |
+---------------------------------------------
+--------------------------------------------
+| agent acc                | 0.6875        |
+| demo acc                 | 0.59375       |
+| discriminator loss agent | 0.67376053    |
+| discriminator loss demo  | 0.571676      |
+| discriminator loss total | 1.2454365     |
+| entropy loss             | 0.44541058    |
+| frac                     | 0.0           |
+| kl                       | -8.215153e-05 |
+| loss                     | 1.3707446     |
+| max 100 episode reward   | 200           |
+| mean 100 episode reward  | 194           |
+| min 100 episode reward   | 128           |
+| num episodes             | 7006          |
+| policy loss              | 0.11182067    |
+| reward signal mean       | 0.41384733    |
+| value loss               | 2.526756      |
+--------------------------------------------

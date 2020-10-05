@@ -1,5 +1,7 @@
 import random
 import pickle
+import sys
+import os
 from collections import deque
 
 
@@ -8,11 +10,11 @@ import gym
 import numpy as np
 import tensorflow as tf
 
-from algo.util import set_global_seeds
-from algo.ppo import PPO
-from algo.discriminator import Discriminator
-from algo.config import Config
-from algo import logger
+from util import set_global_seeds
+from ppo import PPO
+from discriminator import Discriminator
+from config import Config
+import logger
 
 
 class CartPoleWrapper(gym.Wrapper):
@@ -150,10 +152,10 @@ class Memory:
         self.gae = np.zeros_like(self.gae)
 
 
-def main():
+def main(args):
     config = Config()
     set_global_seeds(config.seed)
-    logger.configure("../logs")
+    logger.configure("logs")
     env = gym.make(config.env_name)
     env = CartPoleWrapper(env)
     # with tf.device("/gpu:0"):  # gpuを使用する場合
@@ -171,7 +173,20 @@ def main():
     num_episodes = 0
     episode_rewards = deque([], maxlen=100)
     memory = Memory(env.observation_space.shape, config)
-    expert_dataset = ExpertDataset(f"demo/{config.demo}")
+    # ----- load trajectories -----
+    if len(args) > 1 and args[1] == "ppo":
+        print("use ppo demonstrations")
+        demo_path = f"demo/{env.spec.id}_ppo.pkl"
+        if not os.path.exists(demo_path):
+            import generate_demo
+            print("generating demonstrations...")
+            generate_demo.main()
+        expert_dataset = ExpertDataset(f"demo/{env.spec.id}_ppo.pkl")
+    else:
+        print("use human demonstrations")
+        demo_path = f"demo/{config.demo}"
+        assert os.path.exists(demo_path), f"demonstrations {demo_path} not found. execute make_demo.py"
+        expert_dataset = ExpertDataset(demo_path)
     reward_sum = 0
     obs = env.reset()
     for t in tqdm(range(config.num_updates)):
@@ -253,4 +268,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv)
