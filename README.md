@@ -3,7 +3,7 @@ Generative Adversarial Imitation Learning implementation with Tensorflow2
 This implementation only supports CartPole environment(OpenAI gym).  
 
 
-このリポジトリは模倣学習アルゴリズムGenerative Adversarial Imitation LearningをTensorflow2で実装したものです。  
+このリポジトリは逆強化学習型模倣学習アルゴリズムGenerative Adversarial Imitation LearningをTensorflow2で実装したものです。  
 学習環境についてはCartPole-v0でのみ検証済みです。  
 GAILについて解説したブログはこちらになります。  
 
@@ -40,5 +40,6 @@ https://arxiv.org/abs/1707.06347
  $ python algo/generate_demo.py  # ppo demonstrations
  ```
  ## Performance Example
- ![CartPole-v1](https://github.com/morikatron/PPO/blob/master/ppo_result.png)
+ ![using human demonstratioins](https://github.com/morikatron/GAIL_PPO/blob/master/sample_result/human/plot.png)
+ ![using ppo demonstrations](https://github.com/morikatron/GAIL_PPO/blob/master/sample_result/ppo/plot.png)
 
