@@ -25,10 +25,19 @@ https://arxiv.org/abs/1707.06347
  ```
  $ git clone https://github.com/morikatron/GAIL_PPO.git
  ```
-  - change directory and run 
+  - change directory and run(using human demonstrations) 
  ```
  $ cd GAIL_PPO
  $ python algo/run.py
+ ```
+  - run(using ppo demonstrations)
+ ```
+ $ python algo/run.py ppo
+ ```
+   - make demo
+ ```
+ $ python algo/make_demo.py  # human demonstrations
+ $ python algo/generate_demo.py  # ppo demonstrations
  ```
  ## Performance Example
  ![CartPole-v1](https://github.com/morikatron/PPO/blob/master/ppo_result.png)
