@@ -16,6 +16,7 @@ from discriminator import Discriminator
 from config import Config
 import logger
 
+os.environ['KMP_DUPLICATE_LIB_OK']='True'
 
 class CartPoleWrapper(gym.Wrapper):
     """
