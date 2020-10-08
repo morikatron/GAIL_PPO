@@ -6,9 +6,9 @@ class Config(NamedTuple):
     env_name: str = "CartPole-v0"  # OpenAI gym env id
     demo: str = "CartPole-v0_human.pkl"
     seed: int = 1234  # random seed
-    num_updates: int = 10000  # total training iterations
+    num_updates: int = 100  # total training iterations
     log_step: int = 100  # log frequency
-    play: bool = False  # render after training
+    play: bool = True  # render after training
     # hyper-parameters
     batch_size: int = 32  # batch size
     num_generator_epochs: int = 3  # number of epochs for training ppo policy
